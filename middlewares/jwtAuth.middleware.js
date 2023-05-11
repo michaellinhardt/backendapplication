@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import * as config from '../../application/config'
+import * as config from '../../config'
 import { AppError } from '../helpers/renders.helper'
 import { verifyToken } from '../helpers/jwtoken.helper'
 

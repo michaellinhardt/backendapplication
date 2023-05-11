@@ -6,6 +6,8 @@ import express from 'express'
 import _ from 'lodash'
 import * as config from './config'
 
+import './initProject'
+
 // Import controllers, middlewares, and helper functions
 import * as controllers from '../src/controllers'
 import * as middlewares from './middlewares'
